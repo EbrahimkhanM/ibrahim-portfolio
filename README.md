@@ -1,64 +1,55 @@
-# PortfolioV2
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/osamajavaid/portfolio)
+  ![GitHub stars](https://img.shields.io/github/stars/osamajavaid/portfolio?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/osamajavaid/portfolio?style=social)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/iosamajavaid?style=social)](https://twitter.com/intent/follow?screen_name=iosamajavaid)
 
-![PortfolioV2](/images/portfolio1.gif)
+  <br />
+  <br />
+  
+  <img src="./public/readme-images/moj.png" />
 
-### A clean portfolio template. (Readme will be updated soon)
+  <h2 align="center">Muhammad Osama Javaid - Personal portfolio</h2>
 
-# Sections
+This website is fully responsive personal portfolio, <br />Responsive for all devices, built using Nextjs, TailwindCSS only.
 
-- Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+<a href="https://osamajavaid.vercel.app/"><strong>➥ Live Demo</strong></a>
 
-# How To Use
+</div>
 
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
+<br />
 
-# How Do I Customize
+### Demo Screeshots
 
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
-- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
+![Osama Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
 
-# How to Deploy
+### Prerequisites
 
-- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
-- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
-- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
-- Now, you need to generate a production build and deploy the website.
+Before you begin, ensure you have met the following requirements:
 
-**Option 1:**
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-- Run `npm run build` to generate the production build folder.
-- Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository. That's it. Done.
-  You may need to `git init` and force push at every new build.
+### Run Locally
 
-**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+To run **portfolio** locally, run this command on your git bash:
 
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
-- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
+Linux and macOS:
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
+```bash
+sudo git clone https://github.com/osamajavaid/portfolio.git
+```
 
+Windows:
 
-# Technologies used 🛠️
+```bash
+git clone https://github.com/osamajavaid/portfolio.git
+```
 
-- [React](https://reactjs.org/)
-- [graphql](https://graphql.org/)
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
-- [baseui](https://github.com/uber/baseweb)
-- [react-reveal](https://www.react-reveal.com/)
-- [styled-components](https://styled-components.com/)
+### Contact
 
-# illustrations 🍥
+If you want to contact with me you can reach me at [X](https://www.x.com/iosamajavaid).
 
-- [UnDraw](https://undraw.co/illustrations)
+### License
 
-# References
-
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+This project is **free to use** and does not contains any license.
